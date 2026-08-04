@@ -35,3 +35,6 @@ models/
 node_modules/
 **/node_modules/
 mockup-annotator/dist/
+
+# per-order fulfilment packs (regenerable)
+fulfilled/
