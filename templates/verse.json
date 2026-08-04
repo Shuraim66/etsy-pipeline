@@ -1,0 +1,35 @@
+{
+  "name": "verse",
+  "_dir": "Verse-led: a verified Arabic passage (the dua, or any ayah pasted into dua_arabic) is the hero; the name is a small header, translation below.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "emerald_gold",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "none",
+  "border": { "style": "single", "inset": 0.040, "line": 0.0009, "color": "accent" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.12, 0.12, 0.88, 0.30], "valign": "center", "blocks": [
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.026, "tracking": 0.38, "upper": true, "color": "accent", "gap": 0.000 },
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.042, "max_w": 0.40, "color": "body", "gap": 0.020 }
+    ]},
+    { "region": [0.08, 0.36, 0.92, 0.64], "valign": "center", "blocks": [
+      { "id": "dua_arabic", "type": "arabic", "font": "arabic_dua", "height": 0.072, "max_w": 0.84, "color": "accent", "gap": 0.000 }
+    ]},
+    { "region": [0.14, 0.70, 0.86, 0.90], "valign": "top", "blocks": [
+      { "id": "divider_1", "type": "divider", "style": "rule", "width": 0.16, "color": "accent", "gap": 0.000 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0188, "leading": 1.5, "max_w": 0.62, "color": "body", "gap": 0.030 }
+    ]}
+  ]
+}

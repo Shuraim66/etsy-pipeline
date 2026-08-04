@@ -1,0 +1,38 @@
+{
+  "name": "aquarelle",
+  "_dir": "Watercolour aura: soft warm-pastel colour blooms form a halo BEHIND a large charcoal name on paper. Airy, artistic, feminine.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#FCFBF7", "to": "#F7F3EA", "washes": [
+    { "cx": 0.39, "cy": 0.30, "rx": 0.19, "ry": 0.16, "color": "#E8C4C9", "alpha": 0.40, "blur": 0.075 },
+    { "cx": 0.61, "cy": 0.29, "rx": 0.19, "ry": 0.16, "color": "#EBCBA6", "alpha": 0.36, "blur": 0.075 },
+    { "cx": 0.50, "cy": 0.40, "rx": 0.17, "ry": 0.13, "color": "#CFC1DE", "alpha": 0.30, "blur": 0.085 }
+  ] },
+  "colors": { "ink": "#332E27", "soft": "#7C7568", "rose": "#B06E6B" },
+
+  "ornament": "none",
+  "border": { "style": "none" },
+  "corner": { "style": "none" },
+  "divider_style": "leaf",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.250, 0.930],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.150, "max_w": 0.66, "color": "ink", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.030, "tracking": 0.34, "upper": true, "color": "ink", "gap": 0.034 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.028, "color": "rose", "gap": 0.026 },
+      { "id": "divider_1",   "type": "divider",   "style": "leaf", "width": 0.22, "color": "rose", "gap": 0.038 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0166, "leading": 1.55, "max_w": 0.62, "color": "ink", "gap": 0.036 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.024, "max_w": 0.62, "color": "rose", "gap": 0.038 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0168, "leading": 1.45, "max_w": 0.54, "color": "soft", "gap": 0.022 }
+    ]
+  }
+}

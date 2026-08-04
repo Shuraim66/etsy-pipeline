@@ -1,0 +1,38 @@
+{
+  "name": "photographic_glow",
+  "_dir": "Photographic glow: Light effects with soft focus, name-forward with ethereal background.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": {
+    "from": "#0A0A0A",
+    "to": "#1A1A2E",
+    "washes": [
+      { "cx": 0.50, "cy": 0.50, "rx": 0.55, "ry": 0.60, "color": "#4ECDC4", "alpha": 0.25, "blur": 0.15 },
+      { "cx": 0.30, "cy": 0.40, "rx": 0.35, "ry": 0.40, "color": "#FF6B6B", "alpha": 0.15, "blur": 0.12 },
+      { "cx": 0.70, "cy": 0.60, "rx": 0.40, "ry": 0.45, "color": "#FFE66D", "alpha": 0.10, "blur": 0.10 }
+    ]
+  },
+  "colors": { "ink": "#FFFFFF", "accent": "#FFFFFF", "muted": "#AAAAAA" },
+
+  "ornament": "none",
+  "border": { "style": "single", "inset": 0.042, "line": 0.0010, "color": "ink" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.22, 0.22, 0.78, 0.42], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.026, "upper": true, "color": "accent", "gap": 0.012 }
+    ]},
+    { "region": [0.15, 0.48, 0.85, 0.72], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.044, "max_w": 0.70, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.28, 0.78, 0.72, 0.85], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.013, "color": "muted", "gap": 0.0 }
+    ]}
+  ]
+}

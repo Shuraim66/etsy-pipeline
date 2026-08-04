@@ -1,0 +1,24 @@
+{
+  "name": "duo",
+  "_dir": "Name-only minimalist (boho): tracked Latin name over a large Arabic name, lots of whitespace. Demonstrates LESS content.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "oatmeal",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "none",
+  "border": { "style": "none" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 500 }
+  },
+
+  "zones": [
+    { "region": [0.10, 0.28, 0.90, 0.72], "valign": "center", "blocks": [
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.034, "tracking": 0.42, "upper": true, "color": "accent", "gap": 0.000 },
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.150, "max_w": 0.74, "color": "accent", "gap": 0.052 }
+    ]}
+  ]
+}

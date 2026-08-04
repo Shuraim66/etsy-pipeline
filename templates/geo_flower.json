@@ -1,0 +1,5 @@
+{ "name":"geo_flower","_dir":"Full-bleed flower-of-life lattice, gold on navy, double gold frame.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#16233A","to":"#0E1727"},"colors":{"gold":"#E4C06A"},
+  "ornament":"none","corner":{"style":"none"},
+  "pattern":{"kind":"interlaced_circles","color":"#E4C06A","cells":5,"line":0.0055},
+  "border":{"style":"double","inset":0.050,"gap":0.014,"line":0.0013,"color":"#E4C06A"},"fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},"zones":[] }

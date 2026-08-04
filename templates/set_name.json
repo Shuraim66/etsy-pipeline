@@ -1,0 +1,31 @@
+{
+  "name": "set_name",
+  "_dir": "3-piece set, panel 2: the NAME. Coordinated with set_bismillah + set_dua.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "emerald_gold",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "medallion",
+  "crest": { "cy": 0.165, "size": 0.135, "color": "accent" },
+  "border": { "style": "single", "inset": 0.040, "line": 0.0009, "color": "accent" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.40, 0.90],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.120, "max_w": 0.70, "color": "accent", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.030, "tracking": 0.28, "upper": true, "color": "body", "gap": 0.030 },
+      { "id": "divider_1",   "type": "divider", "style": "diamond", "width": 0.24, "color": "accent", "gap": 0.034 },
+      { "id": "meaning",     "type": "paragraph", "font": "body", "size": 0.0162, "leading": 1.5, "max_w": 0.62, "color": "body", "gap": 0.034 }
+    ]
+  }
+}

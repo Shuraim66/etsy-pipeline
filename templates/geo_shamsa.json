@@ -1,0 +1,7 @@
+{ "name":"geo_shamsa","_dir":"Large shamsa rosette in a ringed cartouche over a faint arabesque field, gold on cream, ornate double frame + floral corners.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#F5EFE1","to":"#EDE4CE"},"colors":{"gold":"#A8842B"},
+  "ornament":"medallion","crest":{"size":0.72,"cy":0.5,"color":"#A8842B"},
+  "corner":{"style":"floral","size":0.13,"color":"#B7913A"},
+  "pattern":{"kind":"interlaced_circles","color":"#C9A24B","cells":5,"line":0.0045,"alpha":0.16},
+  "cartouche":{"cx":0.5,"cy":0.5,"r":0.40,"fill":"#F5EFE1","ring":"#A8842B","ring_line":0.0013},
+  "border":{"style":"double","inset":0.045,"gap":0.013,"line":0.0012,"color":"#A8842B"},"fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},"zones":[] }

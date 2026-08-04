@@ -1,0 +1,30 @@
+{
+  "name": "names_99_grid",
+  "_dir": "99 Names grid: All 99 names of Allah in elegant grid layout with geometric flourishes, perfect for spiritual display and reflection.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "emerald_gold",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "none",
+  "border": { "style": "double", "inset": 0.045, "line": 0.0010, "color": "accent" },
+  "corner": { "style": "bracket", "size": 0.14, "color": "accent" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.10, 0.10, 0.90, 0.85], "valign": "top", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "height": 0.022, "max_w": 0.70, "color": "accent", "gap": 0.000 }
+    ]},
+    { "region": [0.15, 0.88, 0.85, 0.95], "valign": "center", "blocks": [
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0160, "leading": 1.40, "max_w": 0.60, "color": "body", "gap": 0.020 }
+    ]}
+  ]
+}

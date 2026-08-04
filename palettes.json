@@ -1,0 +1,73 @@
+{
+  "_comment": "Role colours for recolouring layouts. accent=gold name/dividers/arch; body/muted=text on the main (hero/mihrab) canvas; banner/bannerText=split_panel banner; pageBody/pageMuted=text on the split_panel light page; bg*/page*=backgrounds; vignette=edge darkening for the dark canvas.",
+
+  "emerald_gold": {
+    "accent": "#E9C46A", "body": "#EDE6D6", "muted": "#9DB3A6",
+    "bgFrom": "#10362A", "bgTo": "#08251C", "vignette": 0.45,
+    "banner": "#10362A", "bannerText": "#EDE6D6",
+    "pageFrom": "#F4EFE4", "pageTo": "#F4EFE4", "pageBody": "#3A352C", "pageMuted": "#8A8576"
+  },
+
+  "black_gold": {
+    "accent": "#E9C46A", "body": "#ECE6D8", "muted": "#9A958A",
+    "bgFrom": "#18160F", "bgTo": "#0B0A07", "vignette": 0.50,
+    "banner": "#18160F", "bannerText": "#ECE6D8",
+    "pageFrom": "#F5F2EA", "pageTo": "#F5F2EA", "pageBody": "#2A2722", "pageMuted": "#8C857A"
+  },
+
+  "navy_gold": {
+    "accent": "#E6C36A", "body": "#E6E2D6", "muted": "#9AA6BC",
+    "bgFrom": "#15233B", "bgTo": "#0C162A", "vignette": 0.45,
+    "banner": "#15233B", "bannerText": "#E6E2D6",
+    "pageFrom": "#F2F2EC", "pageTo": "#F2F2EC", "pageBody": "#2A2E38", "pageMuted": "#828A9A"
+  },
+
+  "ivory_gold": {
+    "accent": "#A8842B", "body": "#3A2E1A", "muted": "#7A6636",
+    "bgFrom": "#F6F0E1", "bgTo": "#ECE3CD", "vignette": 0.10,
+    "banner": "#10362A", "bannerText": "#EDE6D6",
+    "pageFrom": "#F6F0E1", "pageTo": "#ECE3CD", "pageBody": "#3A2E1A", "pageMuted": "#7A6636"
+  },
+
+  "oatmeal": {
+    "accent": "#2E2A24", "body": "#3C372F", "muted": "#8C8170",
+    "bgFrom": "#EFE9DC", "bgTo": "#E7DFCD", "vignette": 0.0,
+    "banner": "#2E2A24", "bannerText": "#EFE9DC",
+    "pageFrom": "#EFE9DC", "pageTo": "#E7DFCD", "pageBody": "#3C372F", "pageMuted": "#8C8170"
+  },
+
+  "terracotta": {
+    "accent": "#F4ECE0", "body": "#F4ECE0", "muted": "#E8D2C4",
+    "bgFrom": "#B5654A", "bgTo": "#A4543C", "vignette": 0.30,
+    "banner": "#B5654A", "bannerText": "#F4ECE0",
+    "pageFrom": "#F4ECE0", "pageTo": "#EFE6D8", "pageBody": "#4A3A30", "pageMuted": "#9A8576"
+  },
+
+  "sage": {
+    "accent": "#F2EEE2", "body": "#F2EEE2", "muted": "#CBD3C0",
+    "bgFrom": "#7E8C6E", "bgTo": "#6E7C5E", "vignette": 0.28,
+    "banner": "#7E8C6E", "bannerText": "#F2EEE2",
+    "pageFrom": "#F2EEE2", "pageTo": "#E9E6D8", "pageBody": "#3E443A", "pageMuted": "#8A917E"
+  },
+
+  "burgundy_gold": {
+    "accent": "#E4C070", "body": "#EEDDD9", "muted": "#C29CA0",
+    "bgFrom": "#4C1622", "bgTo": "#330E18", "vignette": 0.45,
+    "banner": "#4C1622", "bannerText": "#EEDDD9",
+    "pageFrom": "#F5ECEA", "pageTo": "#F5ECEA", "pageBody": "#3A2A2C", "pageMuted": "#8C7476"
+  },
+
+  "dusty_blue": {
+    "accent": "#E3C574", "body": "#E6EAEE", "muted": "#A2B2C0",
+    "bgFrom": "#42566A", "bgTo": "#324454", "vignette": 0.38,
+    "banner": "#42566A", "bannerText": "#E6EAEE",
+    "pageFrom": "#EEF1F4", "pageTo": "#EEF1F4", "pageBody": "#2E3A44", "pageMuted": "#7E8B98"
+  },
+
+  "blush": {
+    "accent": "#A65B62", "body": "#4A363A", "muted": "#9C7B80",
+    "bgFrom": "#F7E9E9", "bgTo": "#F0DBDC", "vignette": 0.08,
+    "banner": "#C88A8E", "bannerText": "#FBF3F3",
+    "pageFrom": "#F7E9E9", "pageTo": "#F0DBDC", "pageBody": "#4A363A", "pageMuted": "#9C7B80"
+  }
+}

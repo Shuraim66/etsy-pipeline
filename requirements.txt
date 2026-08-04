@@ -1,0 +1,7 @@
+# Barakah name-print pipeline - runtime dependencies (keep minimal).
+# CSV handling uses the Python stdlib `csv` module (no pandas).
+Pillow>=10
+arabic-reshaper>=3.0
+python-bidi>=0.4
+reportlab>=4.0
+requests>=2.28      # Etsy Open API v3 client

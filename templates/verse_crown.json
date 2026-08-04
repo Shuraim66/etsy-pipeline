@@ -1,0 +1,33 @@
+{
+  "name": "verse_crown",
+  "_dir": "Royal crown: Ayat al-Kursi beneath an ornate gold crown on deep emerald, with geometric star patterns framing the sacred verse.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "emerald_gold",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+  "ornament": "medallion",
+  "crest": { "size": 320, "color": "accent", "cy": 0.18 },
+  "border": { "style": "double", "inset": 0.045, "line": 0.0012, "color": "accent" },
+  "corner": { "style": "deco", "size": 0.14, "color": "accent" },
+  "divider_style": "diamond",
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+  "zones": [
+    { "region": [0.20, 0.15, 0.80, 0.30], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.020, "upper": true, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.12, 0.30, 0.88, 0.58], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.048, "max_w": 0.76, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.25, 0.60, 0.75, 0.66], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.012, "color": "muted", "gap": 0.0 }
+    ]},
+    { "region": [0.12, 0.70, 0.88, 0.92], "valign": "top", "blocks": [
+      { "id": "divider_1", "type": "divider", "style": "diamond", "width": 0.25, "color": "accent", "gap": 0.03 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0155, "leading": 1.55, "max_w": 0.58, "color": "body", "gap": 0.02 }
+    ]}
+  ]
+}

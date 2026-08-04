@@ -1,0 +1,36 @@
+{
+  "name": "verse_minimalist",
+  "_dir": "Sacred simplicity: Ayat al-Kursi in centered calligraphy with generous margins and pure typography.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#FFFFFF", "to": "#F8F5F0" },
+  "ornament": "none",
+  "border": { "style": "single", "inset": 0.050, "line": 0.0008, "color": "#D4C8B5" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 350 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 400 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 400 }
+  },
+  "colors": {
+    "accent": "#E9C46A",
+    "body": "#333333",
+    "muted": "#9A958A"
+  },
+  "zones": [
+    { "region": [0.20, 0.15, 0.80, 0.30], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.018, "upper": true, "color": "#333333", "gap": 0.010 }
+    ]},
+    { "region": [0.12, 0.30, 0.88, 0.58], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.042, "max_w": 0.70, "color": "#141414", "gap": 0.010 }
+    ]},
+    { "region": [0.25, 0.60, 0.75, 0.66], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.012, "color": "#666666", "gap": 0.0 }
+    ]},
+    { "region": [0.12, 0.70, 0.88, 0.92], "valign": "top", "blocks": [
+      { "id": "divider_1", "type": "divider", "style": "rule", "width": 0.18, "color": "#D4C8B5", "gap": 0.03 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0155, "leading": 1.55, "max_w": 0.58, "color": "#333333", "gap": 0.02 }
+    ]}
+  ]
+}

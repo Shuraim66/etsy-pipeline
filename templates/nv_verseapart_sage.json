@@ -1,0 +1,115 @@
+{
+  "name": "nv_verseapart_sage",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    },
+    "arabic_dua": {
+      "file": "Amiri-Regular.ttf"
+    }
+  },
+  "background": {
+    "from": "#E9EEE3",
+    "to": "#E9EEE3"
+  },
+  "colors": {
+    "ink": "#2E362A",
+    "soft": "#5E6754",
+    "accent": "#6E7562"
+  },
+  "zones": [
+    {
+      "region": [
+        0.12,
+        0.16,
+        0.88,
+        0.44
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "latin_name",
+          "size": 0.022,
+          "tracking": 0.42,
+          "upper": true,
+          "color": "soft"
+        },
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "arabic_name",
+          "height": 0.1,
+          "max_w": 0.62,
+          "color": "ink",
+          "gap": 0.03
+        },
+        {
+          "id": "d",
+          "type": "divider",
+          "style": "rule",
+          "width": 0.1,
+          "color": "accent",
+          "gap": 0.045
+        }
+      ]
+    },
+    {
+      "region": [
+        0.14,
+        0.68,
+        0.86,
+        0.9
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "dua_arabic",
+          "type": "arabic",
+          "font": "arabic_dua",
+          "height": 0.024,
+          "max_w": 0.6,
+          "color": "ink"
+        },
+        {
+          "id": "translation",
+          "field": "dua_translation",
+          "type": "paragraph",
+          "font": "translation",
+          "size": 0.014,
+          "leading": 1.55,
+          "max_w": 0.5,
+          "color": "soft",
+          "gap": 0.035
+        }
+      ]
+    }
+  ]
+}

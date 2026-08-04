@@ -1,0 +1,15 @@
+{ "name":"sacred_verse_royal","_dir":"Royal sacred verse: Ayat al-Kursi in majestic gold on deep royal blue with geometric crown elements.",
+  "canvas":{"w":3508,"h":4961},"palette":"navy_gold",
+  "background":{"from":"bgFrom","to":"bgTo","vignette":"palette"},
+  "ornament":"arch","arch_big":{"region":[0.25,0.10,0.55,0.45],"color":"accent","line":0.0045,"crown":0.42},
+  "border":{"style":"double","inset":0.042,"gap":0.010,"line":0.0010,"color":"accent"},
+  "corner":{"style":"bracket","size":0.12,"color":"accent"},
+  "divider_style":"diamond",
+  "fonts":{"arabic_name":{"file":"Amiri-Regular.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},
+  "flow":{"region":[0.20,0.15],"align":"center","margin":0.10,"blocks":[
+    {"id":"arabic","field":"arabic_uthmani","type":"arabic_para","font":"arabic_dua","height":0.032,"max_w":0.70,"color":"accent","gap":0.0},
+    {"id":"divider_1","type":"divider","style":"diamond","width":0.18,"color":"accent","gap":0.040},
+    {"id":"translation","field":"translation","type":"paragraph","font":"body","size":0.0165,"leading":1.50,"max_w":0.65,"color":"body","gap":0.030},
+    {"id":"label","field":"label","type":"line","font":"date","size":0.0180,"tracking":0.02,"color":"muted","gap":0.020}
+  ]}
+}

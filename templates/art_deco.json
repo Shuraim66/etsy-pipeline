@@ -1,0 +1,36 @@
+{
+  "name": "art_deco",
+  "_dir": "Angular gold on teal. Sunburst fan, STEPPED bevelled frame, deco corners, mixed deco/chevron dividers.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#15252E", "to": "#0D1920" },
+  "colors": { "gold": "#CBA24C", "pale": "#E7D9B5" },
+
+  "ornament": "deco_fan",
+  "crest": { "cy": 0.152, "size": 0.245, "color": "gold" },
+  "border": { "style": "stepped", "inset": 0.034, "gap": 0.009, "line": 0.0016, "color": "gold" },
+  "corner": { "style": "deco", "size": 0.12, "color": "gold" },
+  "divider_style": "deco",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.398, 0.928],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.098, "max_w": 0.60, "color": "gold", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.030, "tracking": 0.34, "upper": true, "color": "gold", "gap": 0.034 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.030,   "color": "pale", "gap": 0.030 },
+      { "id": "divider_1",   "type": "divider",   "style": "deco",    "width": 0.32, "color": "gold", "gap": 0.036 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0166,  "leading": 1.5, "max_w": 0.64, "color": "pale", "gap": 0.036 },
+      { "id": "divider_2",   "type": "divider",   "style": "chevron", "width": 0.26, "color": "gold", "gap": 0.036 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.026, "max_w": 0.62, "color": "gold", "gap": 0.030 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0180, "leading": 1.4, "max_w": 0.56, "color": "pale", "gap": 0.022 }
+    ]
+  }
+}

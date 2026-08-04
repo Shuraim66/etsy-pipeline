@@ -1,0 +1,99 @@
+{
+  "name": "nw_fullbleed_emerald",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "none",
+  "fonts": {
+    "amiri_bold": {
+      "file": "Amiri-Bold.ttf"
+    },
+    "cinzel": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "italic": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#2F5A4E",
+    "to": "#2F5A4E"
+  },
+  "colors": {
+    "light": "#EDE7D8",
+    "soft": "#B9C6BB"
+  },
+  "zones": [
+    {
+      "region": [
+        0.14,
+        0.24,
+        0.86,
+        0.44
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "amiri_bold",
+          "height": 0.135,
+          "max_w": 0.74,
+          "color": "light"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.1,
+        0.5,
+        0.9,
+        0.58
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "cinzel",
+          "size": 0.032,
+          "tracking": 0.28,
+          "upper": true,
+          "color": "light"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.62,
+        0.8,
+        0.75
+      ],
+      "valign": "top",
+      "blocks": [
+        {
+          "id": "meaning",
+          "type": "paragraph",
+          "font": "italic",
+          "size": 0.0142,
+          "leading": 1.7,
+          "max_w": 0.5,
+          "color": "soft"
+        }
+      ]
+    }
+  ]
+}

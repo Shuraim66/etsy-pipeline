@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated output
+output/
+
+# Downloaded fonts (fetched by setup_fonts.py; OFL-licensed, not vendored)
+assets/fonts/*.ttf
+assets/fonts/*.otf
+
+# Etsy API credentials & OAuth tokens — NEVER commit
+etsy_secrets.json
+etsy_token.json
+
+# Pinterest API credentials & OAuth tokens — NEVER commit
+pinterest_secrets.json
+pinterest_token.json
+
+# Pexels API key & any other secrets — NEVER commit
+.pexels_key
+*.key
+.env
+*.env
+*_secrets.json
+*_token.json
+!*.example.json
+
+# Large regenerable / environment dirs
+listings_out/
+.venv-sd/
+venv/
+models/
+node_modules/
+**/node_modules/
+mockup-annotator/dist/

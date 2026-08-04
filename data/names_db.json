@@ -1,0 +1,168 @@
+{
+  "_comment": "Operator-VERIFIED names only. name_arabic MUST be pasted by the operator (an Arabic reader) from a trusted source — it is NEVER AI-generated. Set verified:true only after you have entered and checked the Arabic. Blank/unverified entries never render (generate.py skips them). The name_latin + meaning below are an English convenience roster to fill in; edit meanings freely.",
+  "ibrahim": {
+    "name_arabic": "إبراهيم",
+    "meaning": "The name Ibrahim, meaning “father of many nations,” belongs to one of the most revered prophets in Islam. Prophet Ibrahim (Abraham) is mentioned 69 times across 25 chapters of the Quran, and the 14th Surah bears his name — a symbol of unwavering faith, devotion, and leadership.",
+    "verified": true
+  },
+  "muhammad": {
+    "name_arabic": "محمد",
+    "meaning": "Muhammad means “the praised one” — the name of the final Prophet of Islam and the most given name in the world.",
+    "verified": true
+  },
+  "yusuf": {
+    "name_arabic": "يوسف",
+    "meaning": "Yusuf (Joseph) means “God shall increase” — a prophet renowned for his patience, beauty, and forgiveness.",
+    "verified": true
+  },
+  "ali": {
+    "name_arabic": "علي",
+    "meaning": "Ali means “exalted, noble, sublime” — a name of dignity and high standing.",
+    "verified": true
+  },
+  "omar": {
+    "name_arabic": "عمر",
+    "meaning": "Omar means “flourishing, long-lived” — associated with strength and just leadership.",
+    "verified": true
+  },
+  "hamza": {
+    "name_arabic": "حمزة",
+    "meaning": "Hamza means “lion” and “steadfast” — a name of courage and strength.",
+    "verified": true
+  },
+  "zayd": {
+    "name_arabic": "زيد",
+    "meaning": "Zayd means “growth, abundance, increase” — a name of blessing and progress.",
+    "verified": true
+  },
+  "bilal": {
+    "name_arabic": "بلال",
+    "meaning": "Bilal means “moisture, freshness” — borne by the first muezzin of Islam, a symbol of devotion.",
+    "verified": true
+  },
+  "idris": {
+    "name_arabic": "إدريس",
+    "meaning": "Idris is the name of an early prophet, associated with knowledge and study.",
+    "verified": true
+  },
+  "ismail": {
+    "name_arabic": "إسماعيل",
+    "meaning": "Ismail (Ishmael) means “God will hear” — a prophet and son of Ibrahim.",
+    "verified": true
+  },
+  "musa": {
+    "name_arabic": "موسى",
+    "meaning": "Musa (Moses) is one of the greatest prophets, who spoke with God.",
+    "verified": true
+  },
+  "isa": {
+    "name_arabic": "عيسى",
+    "meaning": "Isa (Jesus) is a revered prophet and messenger of God in Islam.",
+    "verified": true
+  },
+  "adam": {
+    "name_arabic": "آدم",
+    "meaning": "Adam, the first human and prophet, means “of the earth.”",
+    "verified": true
+  },
+  "yahya": {
+    "name_arabic": "يحيى",
+    "meaning": "Yahya (John) means “he shall live” — a righteous prophet of purity.",
+    "verified": true
+  },
+  "dawud": {
+    "name_arabic": "داوود",
+    "meaning": "Dawud (David) means “beloved” — a prophet and king known for his devotion and beautiful voice.",
+    "verified": true
+  },
+  "khalid": {
+    "name_arabic": "خالد",
+    "meaning": "Khalid means “eternal, immortal” — a name of endurance and legacy.",
+    "verified": true
+  },
+  "hassan": {
+    "name_arabic": "حسن",
+    "meaning": "Hassan means “handsome, good, benefactor” — a beloved grandson of the Prophet.",
+    "verified": true
+  },
+  "hussain": {
+    "name_arabic": "حسين",
+    "meaning": "Hussain means “good, handsome” — a beloved grandson of the Prophet.",
+    "verified": true
+  },
+  "aisha": {
+    "name_arabic": "عائشة",
+    "meaning": "Aisha means “living, prosperous, full of life” — a name of vitality.",
+    "verified": true
+  },
+  "maryam": {
+    "name_arabic": "مريم",
+    "meaning": "Maryam (Mary) is the honoured mother of Prophet Isa — a symbol of purity and faith.",
+    "verified": true
+  },
+  "fatima": {
+    "name_arabic": "فاطمة",
+    "meaning": "Fatima means “one who abstains” — the beloved daughter of the Prophet Muhammad.",
+    "verified": true
+  },
+  "khadija": {
+    "name_arabic": "خديجة",
+    "meaning": "Khadija, the Prophet’s first wife, is honoured for her strength, loyalty, and generosity.",
+    "verified": true
+  },
+  "zainab": {
+    "name_arabic": "زينب",
+    "meaning": "Zainab is the name of a fragrant flowering tree — a symbol of beauty and grace.",
+    "verified": true
+  },
+  "amina": {
+    "name_arabic": "آمنة",
+    "meaning": "Amina means “trustworthy, faithful, secure” — the name of the Prophet’s mother.",
+    "verified": true
+  },
+  "noor": {
+    "name_arabic": "نور",
+    "meaning": "Noor means “light” — divine radiance and guidance.",
+    "verified": true
+  },
+  "layla": {
+    "name_arabic": "ليلى",
+    "meaning": "Layla means “night” — a name of dark beauty and depth.",
+    "verified": true
+  },
+  "yasmin": {
+    "name_arabic": "ياسمين",
+    "meaning": "Yasmin means “jasmine flower” — delicate fragrance and beauty.",
+    "verified": true
+  },
+  "safiyya": {
+    "name_arabic": "صفية",
+    "meaning": "Safiyya means “pure, sincere, chosen friend.”",
+    "verified": true
+  },
+  "asma": {
+    "name_arabic": "أسماء",
+    "meaning": "Asma means “lofty, eminent, precious” — noble and distinguished.",
+    "verified": true
+  },
+  "zahra": {
+    "name_arabic": "زهراء",
+    "meaning": "Zahra means “radiant, blooming” — bright and flowering.",
+    "verified": true
+  },
+  "sumayya": {
+    "name_arabic": "سمية",
+    "meaning": "Sumayya, the first martyr of Islam, is honoured for her unwavering faith.",
+    "verified": true
+  },
+  "ruqayya": {
+    "name_arabic": "رقية",
+    "meaning": "Ruqayya means “ascent, rise, gentleness” — a daughter of the Prophet.",
+    "verified": true
+  },
+  "hafsa": {
+    "name_arabic": "حفصة",
+    "meaning": "Hafsa means “young lioness” — a wife of the Prophet and a keeper of the Qur’an.",
+    "verified": true
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "nm_aura_lilac",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#F0ECF4",
+    "to": "#F0ECF4",
+    "washes": [
+      {
+        "cx": 0.5,
+        "cy": 0.34,
+        "rx": 0.3,
+        "ry": 0.26,
+        "color": "#C4B4D0",
+        "alpha": 0.42,
+        "blur": 0.1
+      },
+      {
+        "cx": 0.5,
+        "cy": 0.34,
+        "rx": 0.17,
+        "ry": 0.15,
+        "color": "#B0A0C0",
+        "alpha": 0.3,
+        "blur": 0.09
+      }
+    ]
+  },
+  "colors": {
+    "ink": "#332F2A",
+    "soft": "#948B82",
+    "accent": "#7E7288"
+  },
+  "flow": {
+    "region": [
+      0.16,
+      0.8
+    ],
+    "blocks": [
+      {
+        "id": "latin_name",
+        "field": "name_latin",
+        "type": "line",
+        "font": "latin_name",
+        "size": 0.02,
+        "tracking": 0.44,
+        "upper": true,
+        "color": "soft"
+      },
+      {
+        "id": "arabic_name",
+        "field": "name_arabic",
+        "type": "arabic",
+        "font": "arabic_name",
+        "height": 0.1,
+        "max_w": 0.6,
+        "color": "ink",
+        "gap": 0.03
+      },
+      {
+        "id": "d",
+        "type": "divider",
+        "style": "rule",
+        "width": 0.12,
+        "color": "accent",
+        "gap": 0.055
+      },
+      {
+        "id": "meaning",
+        "type": "paragraph",
+        "font": "body",
+        "size": 0.0148,
+        "leading": 1.72,
+        "max_w": 0.5,
+        "color": "soft",
+        "gap": 0.045
+      }
+    ]
+  },
+  "_dir": "aura/lilac"
+}

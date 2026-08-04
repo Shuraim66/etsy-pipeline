@@ -1,0 +1,141 @@
+{
+  "name": "vertical_dusty",
+  "_dir": "Vertical Latin SPINE on a dusty-blue field (distinct from the emerald vertical). Latin name tracked up the side, large horizontal Arabic centred.",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "palette": "dusty_blue",
+  "background": {
+    "from": "bgFrom",
+    "to": "bgTo",
+    "vignette": "palette"
+  },
+  "ornament": "none",
+  "border": {
+    "style": "single",
+    "inset": 0.04,
+    "line": 0.0009,
+    "color": "accent"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Bold.ttf"
+    },
+    "arabic_dua": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "date": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "zones": [
+    {
+      "region": [
+        0.055,
+        0.18,
+        0.175,
+        0.82
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "latin_name",
+          "size": 0.022,
+          "tracking": 0.62,
+          "upper": true,
+          "color": "muted",
+          "rotate": 90,
+          "gap": 0.0
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.12,
+        0.8,
+        0.9
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "arabic_name",
+          "height": 0.15,
+          "max_w": 0.5,
+          "color": "accent",
+          "gap": 0.0
+        },
+        {
+          "id": "date",
+          "type": "line",
+          "font": "date",
+          "size": 0.028,
+          "color": "muted",
+          "gap": 0.044
+        },
+        {
+          "id": "divider_1",
+          "type": "divider",
+          "style": "rule",
+          "width": 0.14,
+          "color": "accent",
+          "gap": 0.034
+        },
+        {
+          "id": "meaning",
+          "type": "paragraph",
+          "font": "body",
+          "size": 0.016,
+          "leading": 1.55,
+          "max_w": 0.56,
+          "color": "body",
+          "gap": 0.034
+        },
+        {
+          "id": "dua_arabic",
+          "type": "arabic",
+          "font": "arabic_dua",
+          "height": 0.024,
+          "max_w": 0.54,
+          "color": "accent",
+          "gap": 0.04
+        },
+        {
+          "id": "translation",
+          "field": "dua_translation",
+          "type": "paragraph",
+          "font": "translation",
+          "size": 0.0166,
+          "leading": 1.45,
+          "max_w": 0.5,
+          "color": "muted",
+          "gap": 0.022
+        }
+      ]
+    }
+  ]
+}

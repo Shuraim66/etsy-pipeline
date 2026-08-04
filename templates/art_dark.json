@@ -1,0 +1,38 @@
+{
+  "name": "art_dark",
+  "_dir": "Dark art: Deep midnight background with gold accents, name-forward composition.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": {
+    "from": "#0A0A0A",
+    "to": "#1A1A2E",
+    "washes": [
+      { "cx": 0.50, "cy": 0.50, "rx": 0.40, "ry": 0.45, "color": "#D4AF37", "alpha": 0.18, "blur": 0.12 },
+      { "cx": 0.30, "cy": 0.40, "rx": 0.35, "ry": 0.40, "color": "#FFD700", "alpha": 0.12, "blur": 0.08 }
+    ]
+  },
+  "colors": { "ink": "#FFFFFF", "accent": "#FFD700", "muted": "#AAAAAA" },
+
+  "arch": { "color": "accent", "line": 0.008, "crown": 0.52 },
+
+  "border": { "style": "single", "inset": 0.040, "line": 0.0012, "color": "accent" },
+  "corner": { "style": "none" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.20, 0.22, 0.80, 0.42], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.026, "upper": true, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.15, 0.48, 0.85, 0.70], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.044, "max_w": 0.72, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.28, 0.78, 0.72, 0.85], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.013, "color": "muted", "gap": 0.0 }
+    ]}
+  ]
+}

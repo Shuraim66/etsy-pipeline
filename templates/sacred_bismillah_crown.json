@@ -1,0 +1,116 @@
+{
+  "name": "sacred_bismillah_crown",
+  "_dir": "Crown Bismillah: The sacred basmala beneath an ornate gold crown on emerald, with delicate geometric flourishes.",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "palette": "emerald_gold",
+  "background": {
+    "from": "bgFrom",
+    "to": "bgTo",
+    "vignette": "palette"
+  },
+  "ornament": "arch",
+  "arch_big": {
+    "region": [
+      0.35,
+      0.15,
+      0.3,
+      0.4
+    ],
+    "color": "accent",
+    "line": 0.005,
+    "crown": 0.38
+  },
+  "border": {
+    "style": "double",
+    "inset": 0.04,
+    "gap": 0.008,
+    "line": 0.001,
+    "color": "accent"
+  },
+  "corner": {
+    "style": "deco",
+    "size": 0.1,
+    "color": "accent"
+  },
+  "divider_style": "diamond",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Bold.ttf"
+    },
+    "arabic_dua": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf"
+    },
+    "date": {
+      "file": "EBGaramond-Italic[wght].ttf"
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf"
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf"
+    }
+  },
+  "flow": {
+    "region": [
+      0.25,
+      0.25
+    ],
+    "align": "center",
+    "margin": 0.1,
+    "blocks": [
+      {
+        "id": "arabic",
+        "field": "arabic_uthmani",
+        "type": "arabic",
+        "font": "arabic_name",
+        "height": 0.095,
+        "max_w": 0.5,
+        "color": "accent",
+        "gap": 0.0
+      },
+      {
+        "id": "divider_1",
+        "type": "divider",
+        "style": "rule",
+        "width": 0.22,
+        "color": "accent",
+        "gap": 0.03
+      },
+      {
+        "id": "translation",
+        "field": "translation",
+        "type": "paragraph",
+        "font": "body",
+        "size": 0.017,
+        "leading": 1.5,
+        "max_w": 0.58,
+        "color": "body",
+        "gap": 0.03
+      },
+      {
+        "id": "label",
+        "field": "label",
+        "type": "line",
+        "font": "date",
+        "size": 0.0185,
+        "tracking": 0.03,
+        "color": "muted",
+        "gap": 0.025
+      }
+    ]
+  },
+  "colors": {
+    "ink": "#26312A",
+    "gold": "#A8842B",
+    "soft": "#8A8064",
+    "accent": "#E9C46A",
+    "body": "#EDE6D6",
+    "muted": "#9DB3A6"
+  }
+}

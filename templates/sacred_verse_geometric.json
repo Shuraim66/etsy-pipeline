@@ -1,0 +1,14 @@
+{ "name":"sacred_verse_geometric","_dir":"Geometric sacred verse: Ayat al-Kursi framed by Islamic star patterns on deep black with gold accents.",
+  "canvas":{"w":3508,"h":4961},"palette":"black_gold",
+  "background":{"from":"bgFrom","to":"bgTo","vignette":"palette"},
+  "ornament":"geometric","border":{"style":"single","inset":0.045,"line":0.0012,"color":"accent"},
+  "corner":{"style":"none"},
+  "divider_style":"double",
+  "fonts":{"arabic_name":{"file":"Amiri-Regular.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},
+  "flow":{"region":[0.22,0.18],"align":"center","margin":0.12,"blocks":[
+    {"id":"arabic","field":"arabic_uthmani","type":"arabic_para","font":"arabic_dua","height":0.030,"max_w":0.72,"color":"accent","gap":0.0},
+    {"id":"divider_1","type":"divider","style":"double","width":0.20,"color":"accent","gap":0.035},
+    {"id":"translation","field":"translation","type":"paragraph","font":"body","size":0.0160,"leading":1.50,"max_w":0.68,"color":"body","gap":0.030},
+    {"id":"label","field":"label","type":"line","font":"date","size":0.0175,"tracking":0.02,"color":"muted","gap":0.025}
+  ]}
+}

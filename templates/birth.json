@@ -1,0 +1,44 @@
+{
+  "name": "birth",
+  "_dir": "Birth announcement: name + a row of details (BORN / TIME / WEIGHT) and place. Different content model -- no meaning or dua. Labels are literal text.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "oatmeal",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "none",
+  "border": { "style": "single", "inset": 0.050, "line": 0.0008, "color": "muted" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 }
+  },
+
+  "zones": [
+    { "region": [0.10, 0.20, 0.90, 0.46], "valign": "center", "blocks": [
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.030, "tracking": 0.38, "upper": true, "color": "accent", "gap": 0.000 },
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.120, "max_w": 0.70, "color": "accent", "gap": 0.042 }
+    ]},
+    { "region": [0.35, 0.515, 0.65, 0.55], "valign": "center", "blocks": [
+      { "id": "divider_1", "type": "divider", "style": "rule", "width": 0.30, "color": "muted", "gap": 0.000 }
+    ]},
+    { "region": [0.10, 0.60, 0.3733, 0.74], "valign": "top", "blocks": [
+      { "id": "l_born", "type": "line", "text": "BORN", "font": "latin_name", "size": 0.0125, "tracking": 0.34, "upper": true, "color": "muted", "gap": 0.000 },
+      { "id": "v_date", "field": "date", "type": "line", "font": "body", "size": 0.020, "color": "accent", "gap": 0.014 }
+    ]},
+    { "region": [0.3733, 0.60, 0.6266, 0.74], "valign": "top", "blocks": [
+      { "id": "l_time", "type": "line", "text": "TIME", "font": "latin_name", "size": 0.0125, "tracking": 0.34, "upper": true, "color": "muted", "gap": 0.000 },
+      { "id": "v_time", "field": "time", "type": "line", "font": "body", "size": 0.020, "color": "accent", "gap": 0.014 }
+    ]},
+    { "region": [0.6266, 0.60, 0.90, 0.74], "valign": "top", "blocks": [
+      { "id": "l_weight", "type": "line", "text": "WEIGHT", "font": "latin_name", "size": 0.0125, "tracking": 0.34, "upper": true, "color": "muted", "gap": 0.000 },
+      { "id": "v_weight", "field": "weight", "type": "line", "font": "body", "size": 0.020, "color": "accent", "gap": 0.014 }
+    ]},
+    { "region": [0.10, 0.80, 0.90, 0.88], "valign": "top", "blocks": [
+      { "id": "place", "field": "place", "type": "line", "font": "date", "size": 0.020, "color": "muted", "gap": 0.000 }
+    ]}
+  ]
+}

@@ -1,0 +1,7 @@
+{ "name":"geo_unwan","_dir":"Illuminated frontispiece: khatam star field with a central shamsa medallion in a clean cartouche, ornate double gold frame. Emerald + gold.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#12332B","to":"#0C2620"},"colors":{"gold":"#E4C06A"},
+  "ornament":"medallion","crest":{"size":0.565,"cy":0.5,"color":"#E4C06A"},
+  "corner":{"style":"none"},
+  "pattern":{"kind":"star_tiling","color":"#E4C06A","cells":6,"line":0.0050,"inner":0.40},
+  "cartouche":{"cx":0.5,"cy":0.5,"r":0.315,"fill":"#0F2C24","ring":"#E4C06A","ring_line":0.0016},
+  "border":{"style":"double","inset":0.050,"gap":0.014,"line":0.0014,"color":"#E4C06A"},"fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},"zones":[] }

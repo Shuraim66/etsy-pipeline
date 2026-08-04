@@ -1,0 +1,5 @@
+{ "name":"geo_panel","_dir":"Star tessellation in a centred sage tone-panel on cream, thin page frame. Gallery/matted geometric.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#F4EFE3","to":"#EFE8D8","panels":[{"region":[0.14,0.155,0.86,0.845],"color":"#7E8C6E"}]},
+  "colors":{"sage":"#7E8C6E","cream":"#F4EFE3"},"ornament":"none","corner":{"style":"none"},
+  "pattern":{"kind":"star_tiling","color":"#F4EFE3","cells":6,"line":0.006,"inner":0.40,"region":[0.14,0.155,0.86,0.845]},
+  "border":{"style":"double","inset":0.048,"gap":0.012,"line":0.0011,"color":"#7E8C6E"},"fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},"zones":[] }

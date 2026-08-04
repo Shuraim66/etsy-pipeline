@@ -1,0 +1,36 @@
+{
+  "name": "ocean_neutral",
+  "_dir": "Neutral boho: Oatmeal cream background, charcoal type, name-forward with watercolor wash.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": {
+    "from": "#F4F1DE",
+    "to": "#E8E4D9",
+    "washes": [
+      { "cx": 0.50, "cy": 0.40, "rx": 0.45, "ry": 0.50, "color": "#D4A373", "alpha": 0.15, "blur": 0.06 },
+      { "cx": 0.35, "cy": 0.65, "rx": 0.30, "ry": 0.35, "color": "#A9927D", "alpha": 0.12, "blur": 0.05 }
+    ]
+  },
+  "colors": { "ink": "#264653", "accent": "#264653", "muted": "#8D6E63" },
+
+  "border": { "style": "single", "inset": 0.042, "line": 0.0010, "color": "ink" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.22, 0.20, 0.78, 0.40], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.028, "upper": true, "color": "accent", "gap": 0.012 }
+    ]},
+    { "region": [0.15, 0.45, 0.85, 0.70], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.042, "max_w": 0.70, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.30, 0.75, 0.70, 0.82], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.014, "color": "muted", "gap": 0.0 }
+    ]}
+  ]
+}

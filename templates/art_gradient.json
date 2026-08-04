@@ -1,0 +1,45 @@
+{
+  "name": "art_gradient",
+  "_dir": "Gradient art: Smooth color gradients with name-forward composition.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": {
+    "from": "#D4A37D",
+    "to": "#A67C52",
+    "washes": [
+      { "cx": 0.30, "cy": 0.40, "rx": 0.35, "ry": 0.40, "color": "#FFFFFF", "alpha": 0.10, "blur": 0.12 },
+      { "cx": 0.55, "cy": 0.55, "rx": 0.30, "ry": 0.35, "color": "#FFFFFF", "alpha": 0.08, "blur": 0.10 }
+    ]
+  },
+  "colors": { "ink": "#FFFFFF", "accent": "#FFFFFF", "muted": "#F4F1DE" },
+
+  "pattern": {
+    "kind": "star_tiling",
+    "region": [0.0, 0.0, 1.0, 1.0],
+    "cells": 3.0,
+    "line": 0.003,
+    "color": "ink",
+    "alpha": 0.4
+  },
+
+  "border": { "style": "single", "inset": 0.042, "line": 0.0010, "color": "ink" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.22, 0.18, 0.78, 0.38], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.028, "upper": true, "color": "accent", "gap": 0.012 }
+    ]},
+    { "region": [0.15, 0.45, 0.85, 0.70], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.044, "max_w": 0.72, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.28, 0.78, 0.72, 0.85], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.013, "color": "muted", "gap": 0.0 }
+    ]}
+  ]
+}

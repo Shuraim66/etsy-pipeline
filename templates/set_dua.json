@@ -1,0 +1,31 @@
+{
+  "name": "set_dua",
+  "_dir": "3-piece set, panel 3: the DUA. Coordinated with set_bismillah + set_name.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "emerald_gold",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "medallion",
+  "crest": { "cy": 0.165, "size": 0.135, "color": "accent" },
+  "border": { "style": "single", "inset": 0.040, "line": 0.0009, "color": "accent" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.40, 0.90],
+    "blocks": [
+      { "id": "dua_label", "type": "line", "text": "PROTECTION", "font": "latin_name", "size": 0.0145, "tracking": 0.46, "upper": true, "color": "muted", "gap": 0.000 },
+      { "id": "dua_arabic", "type": "arabic", "font": "arabic_dua", "height": 0.058, "max_w": 0.80, "color": "accent", "gap": 0.030 },
+      { "id": "divider_1", "type": "divider", "style": "diamond", "width": 0.24, "color": "accent", "gap": 0.034 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0186, "leading": 1.5, "max_w": 0.60, "color": "body", "gap": 0.030 }
+    ]
+  }
+}

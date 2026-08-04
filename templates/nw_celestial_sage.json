@@ -1,0 +1,125 @@
+{
+  "name": "nw_celestial_sage",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "crescent",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "none",
+  "fonts": {
+    "cinzel": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "amiri": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "italic": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#E9E9DF",
+    "to": "#E9E9DF"
+  },
+  "colors": {
+    "ink": "#3E4A3A",
+    "soft": "#7C8163",
+    "gold": "#A98A4E"
+  },
+  "crest": {
+    "size": 0.16,
+    "cy": 0.205,
+    "color": "gold"
+  },
+  "zones": [
+    {
+      "region": [
+        0.1,
+        0.4,
+        0.9,
+        0.5
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "cinzel",
+          "size": 0.045,
+          "tracking": 0.18,
+          "upper": true,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.51,
+        0.8,
+        0.585
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "amiri",
+          "height": 0.05,
+          "max_w": 0.45,
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.3,
+        0.6,
+        0.7,
+        0.645
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "date",
+          "field": "date",
+          "type": "line",
+          "font": "italic",
+          "size": 0.02,
+          "tracking": 0.24,
+          "color": "soft"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.67,
+        0.8,
+        0.8
+      ],
+      "valign": "top",
+      "blocks": [
+        {
+          "id": "meaning",
+          "type": "paragraph",
+          "font": "italic",
+          "size": 0.0145,
+          "leading": 1.7,
+          "max_w": 0.5,
+          "color": "soft"
+        }
+      ]
+    }
+  ]
+}

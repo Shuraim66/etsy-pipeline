@@ -1,0 +1,122 @@
+{
+  "name": "nm_botanical_block_sage",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "botanical",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "none",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "crest": {
+    "size": 0.17,
+    "cy": 0.266,
+    "color": "line",
+    "art": "wildflower"
+  },
+  "background": {
+    "from": "#E9EEE3",
+    "to": "#E9EEE3",
+    "panels": [
+      {
+        "region": [
+          0,
+          0,
+          1,
+          0.5
+        ],
+        "color": "#A9B7A0"
+      }
+    ]
+  },
+  "colors": {
+    "ink": "#2E2823",
+    "soft": "#8C8478",
+    "line": "#33392F"
+  },
+  "zones": [
+    {
+      "region": [
+        0.1,
+        0.56,
+        0.9,
+        0.69
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "latin_name",
+          "size": 0.04,
+          "tracking": 0.14,
+          "upper": true,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.7,
+        0.8,
+        0.77
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "arabic_name",
+          "height": 0.03,
+          "max_w": 0.4,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.18,
+        0.8,
+        0.82,
+        0.92
+      ],
+      "valign": "top",
+      "blocks": [
+        {
+          "id": "meaning",
+          "type": "paragraph",
+          "font": "body",
+          "size": 0.0138,
+          "leading": 1.7,
+          "max_w": 0.52,
+          "color": "soft"
+        }
+      ]
+    }
+  ],
+  "_dir": "botanical_block/sage"
+}

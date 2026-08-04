@@ -1,0 +1,30 @@
+{
+  "name": "set_bismillah",
+  "_dir": "3-piece set, panel 1: BISMILLAH. Arabic comes from config (operator-verified); shows the translation until supplied. Coordinated with set_name + set_dua.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "emerald_gold",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "medallion",
+  "crest": { "cy": 0.165, "size": 0.135, "color": "accent" },
+  "border": { "style": "single", "inset": 0.040, "line": 0.0009, "color": "accent" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.40, 0.88],
+    "blocks": [
+      { "id": "bismillah_arabic", "field": "bismillah_arabic", "type": "arabic", "font": "arabic_dua", "height": 0.052, "max_w": 0.80, "color": "accent", "gap": 0.000 },
+      { "id": "divider_1", "type": "divider", "style": "diamond", "width": 0.24, "color": "accent", "gap": 0.040 },
+      { "id": "bismillah_tr", "field": "bismillah_translation", "type": "paragraph", "font": "translation", "size": 0.0200, "leading": 1.5, "max_w": 0.62, "color": "body", "gap": 0.034 }
+    ]
+  }
+}

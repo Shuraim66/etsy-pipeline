@@ -1,0 +1,9 @@
+{
+  "_comment": "Pipeline-level defaults. `defaults.dua_*` fill any row whose dua_arabic is blank; a row with its own verified dua_arabic overrides this. All Arabic here is operator-verified Unicode.",
+  "defaults": {
+    "dua_arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ",
+    "dua_translation": "O Allah, I seek Your forgiveness and well-being in this world and the Hereafter.",
+    "bismillah_arabic": "",
+    "bismillah_translation": "In the name of Allah, the Most Gracious, the Most Merciful."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "watercolor",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#F5EEE2", "to": "#EADFCD" },
+  "colors": { "ink": "#403A34", "rose": "#B07A6E", "sage": "#7E8C6E" },
+
+  "border": { "inset": 0.032, "gap": 0.012, "line": 0.0014, "color": "sage" },
+  "corner": { "size": 0.12, "color": "sage" },
+  "ornament": "floral",
+  "crest": { "cy": 0.128, "size": 0.205, "color": "rose" },
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.385, 0.935],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.086, "max_w": 0.60, "color": "rose", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.027, "tracking": 0.28, "upper": true, "color": "ink", "gap": 0.036 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.030,   "color": "sage", "gap": 0.030 },
+      { "id": "divider_1",   "type": "divider",   "width": 0.26,         "color": "sage", "gap": 0.038 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0162,  "leading": 1.5, "max_w": 0.60, "color": "ink", "gap": 0.038 },
+      { "id": "divider_2",   "type": "divider",   "width": 0.26,         "color": "sage", "gap": 0.038 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.025, "max_w": 0.62, "color": "rose", "gap": 0.034 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0176, "leading": 1.4, "max_w": 0.54, "color": "ink", "gap": 0.024 }
+    ]
+  }
+}

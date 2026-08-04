@@ -1,0 +1,103 @@
+{
+  "name": "nv_nameonly_botanical_terracotta",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "botanical",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "none",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    },
+    "arabic_dua": {
+      "file": "Amiri-Regular.ttf"
+    }
+  },
+  "crest": {
+    "size": 0.18,
+    "cy": 0.28,
+    "color": "line",
+    "art": "wildflower"
+  },
+  "background": {
+    "from": "#F4E7DC",
+    "to": "#F4E7DC",
+    "panels": [
+      {
+        "region": [
+          0,
+          0,
+          1,
+          0.58
+        ],
+        "color": "#B5603F"
+      }
+    ]
+  },
+  "colors": {
+    "ink": "#2E2823",
+    "line": "#F3E6D6"
+  },
+  "zones": [
+    {
+      "region": [
+        0.1,
+        0.64,
+        0.9,
+        0.78
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "latin_name",
+          "size": 0.044,
+          "tracking": 0.14,
+          "upper": true,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.79,
+        0.8,
+        0.87
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "arabic_name",
+          "height": 0.032,
+          "max_w": 0.4,
+          "color": "ink"
+        }
+      ]
+    }
+  ]
+}

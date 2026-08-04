@@ -1,0 +1,7 @@
+{ "name":"geo_unwan_navy","_dir":"Illuminated frontispiece: flower-of-life field with central shamsa cartouche, ornate frame. Navy + gold.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#16233A","to":"#0E1727"},"colors":{"gold":"#E4C06A"},
+  "ornament":"medallion","crest":{"size":0.565,"cy":0.5,"color":"#E4C06A"},
+  "corner":{"style":"none"},
+  "pattern":{"kind":"interlaced_circles","color":"#E4C06A","cells":5,"line":0.0048},
+  "cartouche":{"cx":0.5,"cy":0.5,"r":0.315,"fill":"#131F33","ring":"#E4C06A","ring_line":0.0016},
+  "border":{"style":"double","inset":0.050,"gap":0.014,"line":0.0014,"color":"#E4C06A"},"fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},"zones":[] }

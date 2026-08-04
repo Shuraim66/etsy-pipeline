@@ -1,0 +1,38 @@
+{
+  "name": "sage_block",
+  "_dir": "Sage color-block: Rich sage green with cream text, name-forward with geometric accent.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#88B04B", "to": "#5D873F" },
+  "colors": { "ink": "#FFFFFF", "accent": "#FFFFFF", "muted": "#F4F1DE" },
+
+  "pattern": {
+    "kind": "eightfold_rosette_grid",
+    "region": [0.0, 0.0, 1.0, 1.0],
+    "cells": 3.5,
+    "line": 0.004,
+    "color": "ink",
+    "alpha": 0.6
+  },
+
+  "border": { "style": "double", "inset": 0.036, "gap": 0.008, "line": 0.0010, "color": "ink" },
+  "corner": { "style": "none" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.20, 0.20, 0.80, 0.40], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.026, "upper": true, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.12, 0.45, 0.88, 0.70], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.042, "max_w": 0.72, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.25, 0.75, 0.75, 0.82], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.013, "color": "muted", "gap": 0.0 }
+    ]}
+  ]
+}

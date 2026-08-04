@@ -1,0 +1,37 @@
+{
+  "name": "split_panel",
+  "_dir": "Top colour BANNER with the name reversed out; content on light page below. Palette-driven.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "emerald_gold",
+  "background": { "from": "pageFrom", "to": "pageTo", "panels": [
+    { "region": [0, 0, 1, 0.40], "color": "banner" },
+    { "region": [0, 0.396, 1, 0.404], "color": "accent" }
+  ] },
+
+  "ornament": "none",
+  "border": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.10, 0.03, 0.90, 0.37], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.105, "max_w": 0.72, "color": "accent", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.028, "tracking": 0.30, "upper": true, "color": "bannerText", "gap": 0.026 }
+    ]},
+    { "region": [0.12, 0.47, 0.88, 0.93], "valign": "top", "blocks": [
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.028, "color": "pageMuted", "gap": 0.000 },
+      { "id": "divider_1",   "type": "divider",   "style": "rule", "width": 0.18, "color": "accent", "gap": 0.026 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0164, "leading": 1.55, "max_w": 0.68, "color": "pageBody", "gap": 0.030 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.024, "max_w": 0.62, "color": "banner", "gap": 0.038 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0168, "leading": 1.45, "max_w": 0.58, "color": "pageMuted", "gap": 0.020 }
+    ]}
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "nw_verseset_navy_B",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "none",
+  "fonts": {
+    "cinzel": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "amiri": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "italic": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    },
+    "arabic_dua": {
+      "file": "Amiri-Regular.ttf"
+    }
+  },
+  "background": {
+    "from": "#26333F",
+    "to": "#26333F"
+  },
+  "colors": {
+    "ink": "#ECE5D7",
+    "soft": "#8A7F68",
+    "accent": "#C7A667"
+  },
+  "zones": [
+    {
+      "region": [
+        0.14,
+        0.3,
+        0.86,
+        0.52
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "dua_arabic",
+          "field": "dua_arabic",
+          "type": "arabic_para",
+          "font": "arabic_dua",
+          "size": 0.03,
+          "leading": 1.7,
+          "max_w": 0.72,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.58,
+        0.8,
+        0.72
+      ],
+      "valign": "top",
+      "blocks": [
+        {
+          "id": "dua_translation",
+          "type": "paragraph",
+          "field": "dua_translation",
+          "font": "italic",
+          "size": 0.016,
+          "leading": 1.7,
+          "max_w": 0.56,
+          "color": "soft"
+        }
+      ]
+    }
+  ]
+}

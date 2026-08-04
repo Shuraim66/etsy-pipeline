@@ -1,0 +1,36 @@
+{
+  "name": "editorial",
+  "_dir": "LEFT-aligned magazine layout. Top+bottom rules, big mixed-case Garamond name, one red accent rule, no second divider.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#FAF8F2", "to": "#FAF8F2" },
+  "colors": { "ink": "#23201B", "accent": "#9B2D20", "soft": "#9A9384" },
+
+  "ornament": "none",
+  "border": { "style": "rules_tb", "inset": 0.055, "line": 0.0010, "color": "soft" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "EBGaramond[wght].ttf", "weight": 500 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.255, 0.905],
+    "align": "left",
+    "margin": 0.150,
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.104, "max_w": 0.58, "color": "ink", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.060, "tracking": 0.14, "upper": true, "color": "ink", "gap": 0.030 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.028,   "color": "accent", "gap": 0.024 },
+      { "id": "divider_1",   "type": "divider",   "style": "rule", "width": 0.16, "color": "accent", "gap": 0.040 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0168,  "leading": 1.6, "max_w": 0.54, "color": "ink", "gap": 0.044 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.024, "max_w": 0.54, "color": "ink", "gap": 0.060 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0170, "leading": 1.5, "max_w": 0.46, "color": "soft", "gap": 0.026 }
+    ]
+  }
+}

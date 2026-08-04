@@ -1,0 +1,78 @@
+{
+  "name": "nm_min_diamond_blush",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "diamond",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#F6EBE7",
+    "to": "#F6EBE7"
+  },
+  "colors": {
+    "ink": "#33312C",
+    "soft": "#A29B8E",
+    "accent": "#B87F86"
+  },
+  "flow": {
+    "region": [
+      0.32,
+      0.66
+    ],
+    "blocks": [
+      {
+        "id": "arabic_name",
+        "field": "name_arabic",
+        "type": "arabic",
+        "font": "arabic_name",
+        "height": 0.09,
+        "max_w": 0.55,
+        "color": "ink"
+      },
+      {
+        "id": "d",
+        "type": "divider",
+        "style": "diamond",
+        "width": 0.06,
+        "color": "accent",
+        "gap": 0.05
+      },
+      {
+        "id": "latin_name",
+        "field": "name_latin",
+        "type": "line",
+        "font": "latin_name",
+        "size": 0.024,
+        "tracking": 0.5,
+        "upper": true,
+        "color": "soft",
+        "gap": 0.05
+      }
+    ]
+  },
+  "_dir": "min_diamond/blush"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "nm_block_reverse_charcoal",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": {
+      "file": "ArefRuqaaInk.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#2A2724",
+    "to": "#2A2724"
+  },
+  "colors": {
+    "cream": "#F3ECDD",
+    "gold": "#C9A24C",
+    "soft": "#B7AF9E"
+  },
+  "flow": {
+    "region": [
+      0.3,
+      0.74
+    ],
+    "blocks": [
+      {
+        "id": "arabic_name",
+        "field": "name_arabic",
+        "type": "arabic",
+        "font": "arabic_name",
+        "height": 0.1,
+        "max_w": 0.58,
+        "color": "gold"
+      },
+      {
+        "id": "latin_name",
+        "field": "name_latin",
+        "type": "line",
+        "font": "latin_name",
+        "size": 0.026,
+        "tracking": 0.4,
+        "upper": true,
+        "color": "cream",
+        "gap": 0.045
+      },
+      {
+        "id": "d",
+        "type": "divider",
+        "style": "rule",
+        "width": 0.1,
+        "color": "gold",
+        "gap": 0.04
+      },
+      {
+        "id": "meaning",
+        "type": "paragraph",
+        "font": "body",
+        "size": 0.014,
+        "leading": 1.7,
+        "max_w": 0.52,
+        "color": "soft",
+        "gap": 0.04
+      }
+    ]
+  },
+  "_dir": "block_reverse/charcoal"
+}

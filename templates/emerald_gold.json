@@ -1,0 +1,34 @@
+{
+  "name": "emerald_gold",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#103826", "to": "#0B2A1C" },
+  "colors": { "gold": "#F8B83A", "cream": "#E8E0CE" },
+
+  "border": { "inset": 0.030, "gap": 0.013, "line": 0.0016, "color": "gold" },
+  "corner": { "size": 0.13, "color": "gold" },
+  "ornament": "medallion",
+  "crest": { "cy": 0.137, "size": 0.235, "color": "gold" },
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.365, 0.935],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.100, "max_w": 0.62, "color": "gold",  "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.030,   "tracking": 0.22, "upper": true, "color": "gold",  "gap": 0.034 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.032,   "color": "gold",  "gap": 0.030 },
+      { "id": "divider_1",   "type": "divider",   "width": 0.30,         "color": "gold",  "gap": 0.034 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0168,  "leading": 1.5, "max_w": 0.66, "color": "cream", "gap": 0.034 },
+      { "id": "divider_2",   "type": "divider",   "width": 0.30,         "color": "gold",  "gap": 0.034 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.026, "max_w": 0.62, "color": "gold",  "gap": 0.032 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0182, "leading": 1.4, "max_w": 0.56, "color": "cream", "gap": 0.024 }
+    ]
+  }
+}

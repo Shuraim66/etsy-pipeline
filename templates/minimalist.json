@@ -1,0 +1,33 @@
+{
+  "name": "minimalist",
+  "_dir": "No frame, no ornament, NO dividers. Sectioning by whitespace alone. Centered, quiet.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#FCFBF8", "to": "#FCFBF8" },
+  "colors": { "ink": "#33312C", "soft": "#AFA99D" },
+
+  "ornament": "none",
+  "border": { "style": "none" },
+  "corner": { "style": "none" },
+  "divider_style": "none",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 400 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 400 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 400 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 400 }
+  },
+
+  "flow": {
+    "region": [0.300, 0.880],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.086, "max_w": 0.56, "color": "ink", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.027, "tracking": 0.38, "upper": true, "color": "ink", "gap": 0.044 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.027,   "color": "soft", "gap": 0.030 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0156,  "leading": 1.72, "max_w": 0.52, "color": "ink", "gap": 0.082 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.024, "max_w": 0.56, "color": "ink", "gap": 0.080 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0164, "leading": 1.5, "max_w": 0.46, "color": "soft", "gap": 0.030 }
+    ]
+  }
+}

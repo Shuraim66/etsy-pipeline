@@ -1,0 +1,36 @@
+{
+  "name": "ornate_classic",
+  "_dir": "Dense medallion, double gold border, ornate corners on warm ivory. Traditional and rich.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#F7F1DF", "to": "#EFE6CC" },
+  "colors": { "gold": "#A8842B", "deep": "#43361C", "soft": "#7A6636" },
+
+  "ornament": "medallion",
+  "crest": { "cy": 0.135, "size": 0.235, "color": "gold" },
+  "border": { "style": "double", "inset": 0.030, "gap": 0.013, "line": 0.0016, "color": "gold" },
+  "corner": { "style": "bracket", "size": 0.13, "color": "gold" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.365, 0.935],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.100, "max_w": 0.62, "color": "gold", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.030, "tracking": 0.22, "upper": true, "color": "gold", "gap": 0.034 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.032,   "color": "deep", "gap": 0.030 },
+      { "id": "divider_1",   "type": "divider",   "width": 0.30,         "color": "gold", "gap": 0.034 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0168,  "leading": 1.5, "max_w": 0.66, "color": "deep", "gap": 0.034 },
+      { "id": "divider_2",   "type": "divider",   "width": 0.30,         "color": "gold", "gap": 0.034 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.026, "max_w": 0.62, "color": "gold", "gap": 0.032 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0182, "leading": 1.4, "max_w": 0.56, "color": "soft", "gap": 0.024 }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "geo_modern",
+  "_dir": "Bold monochrome. Large geometric emblem, thick keyline, heavy caps, solid BAR dividers.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#FFFFFF", "to": "#F4F4F2" },
+  "colors": { "ink": "#141414", "mid": "#7A7A7A" },
+
+  "ornament": "geometric",
+  "crest": { "cy": 0.150, "size": 0.205, "color": "ink" },
+  "border": { "style": "single", "inset": 0.044, "line": 0.0040, "color": "ink" },
+  "corner": { "style": "none" },
+  "divider_style": "bar",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 800 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.395, 0.920],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.110, "max_w": 0.60, "color": "ink", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.033, "tracking": 0.12, "upper": true, "color": "ink", "gap": 0.028 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.030,   "color": "mid",  "gap": 0.024 },
+      { "id": "divider_1",   "type": "divider",   "style": "bar",  "width": 0.16, "color": "ink", "gap": 0.040 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0164,  "leading": 1.5, "max_w": 0.64, "color": "mid", "gap": 0.038 },
+      { "id": "divider_2",   "type": "divider",   "style": "double", "width": 0.40, "color": "ink", "gap": 0.038 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.026, "max_w": 0.62, "color": "ink", "gap": 0.030 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0180, "leading": 1.4, "max_w": 0.56, "color": "mid", "gap": 0.024 }
+    ]
+  }
+}

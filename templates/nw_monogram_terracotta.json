@@ -1,0 +1,112 @@
+{
+  "name": "nw_monogram_terracotta",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "none",
+  "fonts": {
+    "cinzel": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "amiri": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "italic": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#F1E8DD",
+    "to": "#F1E8DD"
+  },
+  "colors": {
+    "ink": "#2B2823",
+    "soft": "#8A7F68",
+    "accent": "#B5603F",
+    "wm": "#CFA982"
+  },
+  "watermark": {
+    "field": "name_arabic",
+    "font": "amiri",
+    "color": "wm",
+    "max_w": 0.9,
+    "height": 0.5,
+    "cy": 0.5,
+    "alpha": 0.6
+  },
+  "zones": [
+    {
+      "region": [
+        0.1,
+        0.44,
+        0.9,
+        0.55
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "cinzel",
+          "size": 0.05,
+          "tracking": 0.16,
+          "upper": true,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.3,
+        0.56,
+        0.7,
+        0.6
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "d",
+          "type": "divider",
+          "style": "diamond",
+          "width": 0.1,
+          "color": "accent"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.18,
+        0.61,
+        0.82,
+        0.74
+      ],
+      "valign": "top",
+      "blocks": [
+        {
+          "id": "meaning",
+          "type": "paragraph",
+          "font": "italic",
+          "size": 0.0145,
+          "leading": 1.7,
+          "max_w": 0.52,
+          "color": "soft"
+        }
+      ]
+    }
+  ]
+}

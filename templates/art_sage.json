@@ -1,0 +1,45 @@
+{
+  "name": "art_sage",
+  "_dir": "Sage art: Rich sage green background with cream text, name-forward focus.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": {
+    "from": "#88B04B",
+    "to": "#5D873F",
+    "washes": [
+      { "cx": 0.50, "cy": 0.45, "rx": 0.45, "ry": 0.50, "color": "#7A9E5F", "alpha": 0.15, "blur": 0.12 },
+      { "cx": 0.30, "cy": 0.55, "rx": 0.30, "ry": 0.35, "color": "#6A8E52", "alpha": 0.12, "blur": 0.10 }
+    ]
+  },
+  "colors": { "ink": "#FFFFFF", "accent": "#FFFFFF", "muted": "#E8E4D4" },
+
+  "pattern": {
+    "kind": "eightfold_rosette_grid",
+    "region": [0.0, 0.0, 1.0, 1.0],
+    "cells": 4.0,
+    "line": 0.004,
+    "color": "ink",
+    "alpha": 0.5
+  },
+
+  "border": { "style": "double", "inset": 0.036, "gap": 0.008, "line": 0.0010, "color": "ink" },
+  "corner": { "style": "none" },
+  "divider_style": "diamond",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.20, 0.20, 0.80, 0.40], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.026, "upper": true, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.12, 0.45, 0.88, 0.70], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.042, "max_w": 0.72, "color": "accent", "gap": 0.010 }
+    ]},
+    { "region": [0.25, 0.75, 0.75, 0.82], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.013, "color": "muted", "gap": 0.0 }
+    ]}
+  ]
+}

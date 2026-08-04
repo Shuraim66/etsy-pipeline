@@ -1,0 +1,36 @@
+{
+  "name": "signature_burgundy",
+  "_dir": "Mahal style: rich devotional sacred geometry with burgundy_gold palette variant - deep burgundy tones with luminous gold accents and elegant spiritual focus.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "palette": "burgundy_gold",
+  "background": { "from": "bgFrom", "to": "bgTo", "vignette": "palette" },
+
+  "ornament": "arch",
+  "arch_big": { "region": [0.28, 0.18, 0.44, 0.52], "color": "accent", "line": 0.0042, "crown": 0.38 },
+  "border": { "style": "single", "inset": 0.040, "line": 0.0012, "color": "accent" },
+  "corner": { "style": "none" },
+  "divider_style": "chevron",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.18, 0.28, 0.64, 0.52], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.135, "max_w": 0.50, "color": "accent", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.033, "tracking": 0.26, "upper": true, "color": "body", "gap": 0.032 }
+    ]},
+    { "region": [0.14, 0.68, 0.72, 0.92], "valign": "top", "blocks": [
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.028, "color": "muted", "gap": 0.000 },
+      { "id": "divider_1",   "type": "divider",   "style": "chevron", "width": 0.34, "color": "accent", "gap": 0.030 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0160, "leading": 1.55, "max_w": 0.56, "color": "body", "gap": 0.030 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.024, "max_w": 0.48, "color": "accent", "gap": 0.042 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0166, "leading": 1.45, "max_w": 0.44, "color": "muted", "gap": 0.020 }
+    ]}
+  ]
+}

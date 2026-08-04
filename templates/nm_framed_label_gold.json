@@ -1,0 +1,91 @@
+{
+  "name": "nm_framed_label_gold",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "single",
+    "color": "accent",
+    "inset": 0.055,
+    "line": 0.0011
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "diamond",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#F5EEDC",
+    "to": "#F5EEDC"
+  },
+  "colors": {
+    "ink": "#33302A",
+    "soft": "#948C7E",
+    "accent": "#9A7B3C"
+  },
+  "flow": {
+    "region": [
+      0.22,
+      0.78
+    ],
+    "blocks": [
+      {
+        "id": "latin_name",
+        "field": "name_latin",
+        "type": "line",
+        "font": "latin_name",
+        "size": 0.022,
+        "tracking": 0.5,
+        "upper": true,
+        "color": "ink"
+      },
+      {
+        "id": "arabic_name",
+        "field": "name_arabic",
+        "type": "arabic",
+        "font": "arabic_name",
+        "height": 0.085,
+        "max_w": 0.55,
+        "color": "ink",
+        "gap": 0.04
+      },
+      {
+        "id": "d",
+        "type": "divider",
+        "style": "diamond",
+        "width": 0.09,
+        "color": "accent",
+        "gap": 0.045
+      },
+      {
+        "id": "meaning",
+        "type": "paragraph",
+        "font": "body",
+        "size": 0.0142,
+        "leading": 1.7,
+        "max_w": 0.5,
+        "color": "soft",
+        "gap": 0.04
+      }
+    ]
+  },
+  "_dir": "framed_label/gold"
+}

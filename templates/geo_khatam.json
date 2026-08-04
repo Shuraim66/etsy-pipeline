@@ -1,0 +1,5 @@
+{ "name":"geo_khatam","_dir":"Full-bleed khatam star tessellation, gold on emerald, double gold frame.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#12332B","to":"#0C2620"},"colors":{"gold":"#E4C06A"},
+  "ornament":"none","corner":{"style":"none"},
+  "pattern":{"kind":"star_tiling","color":"#E4C06A","cells":6,"line":0.0055,"inner":0.40},
+  "border":{"style":"double","inset":0.050,"gap":0.014,"line":0.0013,"color":"#E4C06A"},"fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},"zones":[] }

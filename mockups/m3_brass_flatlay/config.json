@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 2000,
+    "height": 2500
+  },
+  "frame": {
+    "style": "flatlay",
+    "color": "brass",
+    "has_mat": false,
+    "glass": true
+  },
+  "outer_quad": [
+    [
+      914.4,
+      451.4
+    ],
+    [
+      1825.6,
+      461.2
+    ],
+    [
+      1856.9,
+      1821.8
+    ],
+    [
+      913.2,
+      1816.6
+    ]
+  ],
+  "inner_quad": [
+    [
+      942.4,
+      483.2
+    ],
+    [
+      1799.3,
+      487.1
+    ],
+    [
+      1822.6,
+      1786.6
+    ],
+    [
+      940.9,
+      1781.0
+    ]
+  ],
+  "effects": {
+    "shadow": {
+      "enabled": false,
+      "opacity": 0.45,
+      "blend_mode": "multiply"
+    },
+    "glare": {
+      "enabled": false,
+      "opacity": 0.18,
+      "blend_mode": "screen"
+    }
+  },
+  "render": {
+    "allow_crop": true,
+    "default_padding": 8,
+    "interpolation": "lanczos"
+  }
+}

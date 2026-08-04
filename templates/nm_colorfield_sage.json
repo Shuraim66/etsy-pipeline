@@ -1,0 +1,88 @@
+{
+  "name": "nm_colorfield_sage",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#C9D3C0",
+    "to": "#C9D3C0"
+  },
+  "colors": {
+    "ink": "#2E362A",
+    "soft": "#5E6754",
+    "accent": "#2E362A"
+  },
+  "flow": {
+    "region": [
+      0.24,
+      0.78
+    ],
+    "blocks": [
+      {
+        "id": "latin_name",
+        "field": "name_latin",
+        "type": "line",
+        "font": "latin_name",
+        "size": 0.021,
+        "tracking": 0.42,
+        "upper": true,
+        "color": "soft"
+      },
+      {
+        "id": "arabic_name",
+        "field": "name_arabic",
+        "type": "arabic",
+        "font": "arabic_name",
+        "height": 0.098,
+        "max_w": 0.58,
+        "color": "ink",
+        "gap": 0.03
+      },
+      {
+        "id": "d",
+        "type": "divider",
+        "style": "rule",
+        "width": 0.1,
+        "color": "ink",
+        "gap": 0.05
+      },
+      {
+        "id": "meaning",
+        "type": "paragraph",
+        "font": "body",
+        "size": 0.0142,
+        "leading": 1.7,
+        "max_w": 0.5,
+        "color": "soft",
+        "gap": 0.045
+      }
+    ]
+  },
+  "_dir": "colorfield/sage"
+}

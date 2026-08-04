@@ -1,0 +1,144 @@
+{
+  "name": "bismillah_gold",
+  "_dir": "Golden Bismillah: The sacred basmala in elegant gold calligraphy on deep lapis, with delicate geometric border for spiritual invocation.",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "palette": "navy_gold",
+  "background": {
+    "from": "bgFrom",
+    "to": "bgTo",
+    "vignette": "palette"
+  },
+  "ornament": "arch",
+  "arch_big": {
+    "region": [
+      0.3,
+      0.15,
+      0.5,
+      0.45
+    ],
+    "color": "accent",
+    "line": 0.0045,
+    "crown": 0.35
+  },
+  "border": {
+    "style": "single",
+    "inset": 0.042,
+    "line": 0.0012,
+    "color": "accent"
+  },
+  "corner": {
+    "style": "floral",
+    "size": 0.16,
+    "color": "accent"
+  },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Bold.ttf"
+    },
+    "arabic_dua": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "date": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "zones": [
+    {
+      "region": [
+        0.25,
+        0.25,
+        0.65,
+        0.5
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "arabic_name",
+          "height": 0.12,
+          "max_w": 0.6,
+          "color": "accent",
+          "gap": 0.0
+        },
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "latin_name",
+          "size": 0.035,
+          "tracking": 0.3,
+          "upper": true,
+          "color": "body",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "region": [
+        0.22,
+        0.6,
+        0.62,
+        0.92
+      ],
+      "valign": "top",
+      "blocks": [
+        {
+          "id": "divider_1",
+          "type": "divider",
+          "style": "rule",
+          "width": 0.28,
+          "color": "accent",
+          "gap": 0.03
+        },
+        {
+          "id": "meaning",
+          "type": "paragraph",
+          "font": "body",
+          "size": 0.0165,
+          "leading": 1.55,
+          "max_w": 0.55,
+          "color": "body",
+          "gap": 0.03
+        },
+        {
+          "id": "translation",
+          "field": "dua_translation",
+          "type": "paragraph",
+          "font": "translation",
+          "size": 0.017,
+          "leading": 1.45,
+          "max_w": 0.5,
+          "color": "muted",
+          "gap": 0.02
+        }
+      ]
+    }
+  ],
+  "colors": {
+    "ink": "#26312A",
+    "gold": "#A8842B",
+    "soft": "#8A8064",
+    "accent": "#E9C46A",
+    "body": "#EDE6D6",
+    "muted": "#9DB3A6"
+  }
+}

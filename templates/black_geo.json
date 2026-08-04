@@ -1,0 +1,35 @@
+{
+  "name": "black_geo",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#FFFFFF", "to": "#FFFFFF" },
+  "colors": { "black": "#141414", "gray": "#555555" },
+
+  "border": { "inset": 0.034, "gap": 0.010, "line": 0.0012, "color": "black" },
+  "corner": { "size": 0.11, "color": "black" },
+  "ornament": "arch",
+  "crest": { "cy": 0.137, "size": 0.215, "color": "black" },
+  "arch": { "color": "black", "line": 0.0085, "crown": 0.50 },
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 700 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.400, 0.935],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.104, "max_w": 0.58, "color": "black", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.030, "tracking": 0.30, "upper": true, "color": "black", "gap": 0.030 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.030,   "color": "gray",  "gap": 0.026 },
+      { "id": "divider_1",   "type": "divider",   "width": 0.30,         "color": "black", "gap": 0.046 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0164,  "leading": 1.45, "max_w": 0.64, "color": "gray",  "gap": 0.034 },
+      { "id": "divider_2",   "type": "divider",   "width": 0.30,         "color": "black", "gap": 0.034 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.026, "max_w": 0.62, "color": "black", "gap": 0.028 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0180, "leading": 1.4, "max_w": 0.56, "color": "gray", "gap": 0.022 }
+    ]
+  }
+}

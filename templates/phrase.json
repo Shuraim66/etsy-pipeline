@@ -1,0 +1,13 @@
+{ "name":"phrase","_dir":"Short Arabic phrase / du'a art (Bismillah, short ayah): large single-line Uthmani, translation + reference. Cream + gold + ink.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#F6F0E1","to":"#EFE6CF"},
+  "colors":{"ink":"#26312A","gold":"#A8842B","soft":"#8A8064"},
+  "ornament":"medallion","crest":{"size":0.13,"cy":0.155,"color":"gold"},
+  "corner":{"style":"floral","size":0.105,"color":"gold"},
+  "border":{"style":"double","inset":0.045,"gap":0.012,"line":0.0011,"color":"gold"},
+  "fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},
+  "flow":{"region":[0.36,0.74],"align":"center","margin":0.12,"blocks":[
+    {"id":"arabic","field":"arabic_uthmani","type":"arabic","font":"arabic_name","height":0.095,"max_w":0.80,"color":"ink","gap":0.0},
+    {"id":"divider_1","type":"divider","style":"rule","width":0.16,"color":"gold","gap":0.055},
+    {"id":"translation","field":"translation","type":"paragraph","font":"translation","size":0.0175,"leading":1.5,"max_w":0.62,"color":"soft","gap":0.040},
+    {"id":"label","field":"label","type":"line","font":"date","size":0.0185,"tracking":0.04,"color":"gold","gap":0.030}
+  ]} }

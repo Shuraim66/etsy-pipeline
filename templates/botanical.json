@@ -1,0 +1,36 @@
+{
+  "name": "botanical",
+  "_dir": "Organic. Floral top spray + corner sprigs, thin sage keyline, leaf dividers. Lush, soft.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#F1F1E6", "to": "#E6E8D7" },
+  "colors": { "ink": "#41463B", "sage": "#76855F", "terra": "#BC7F58" },
+
+  "ornament": "floral",
+  "crest": { "cy": 0.130, "size": 0.205, "color": "sage" },
+  "border": { "style": "single", "inset": 0.038, "line": 0.0011, "color": "sage" },
+  "corner": { "style": "floral", "size": 0.16, "color": "sage" },
+  "divider_style": "leaf",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "flow": {
+    "region": [0.390, 0.928],
+    "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.090, "max_w": 0.60, "color": "ink", "gap": 0.000 },
+      { "id": "latin_name",  "field": "name_latin",  "type": "line",   "font": "latin_name",  "size": 0.028, "tracking": 0.26, "upper": true, "color": "sage", "gap": 0.038 },
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.030,   "color": "terra", "gap": 0.032 },
+      { "id": "divider_1",   "type": "divider",   "style": "leaf",  "width": 0.24, "color": "sage", "gap": 0.040 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0164,  "leading": 1.55, "max_w": 0.62, "color": "ink", "gap": 0.040 },
+      { "id": "divider_2",   "type": "divider",   "style": "leaf",  "width": 0.24, "color": "sage", "gap": 0.040 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.025, "max_w": 0.62, "color": "terra", "gap": 0.034 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0178, "leading": 1.42, "max_w": 0.54, "color": "ink", "gap": 0.024 }
+    ]
+  }
+}

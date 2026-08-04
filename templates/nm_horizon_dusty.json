@@ -1,0 +1,115 @@
+{
+  "name": "nm_horizon_dusty",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "none",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    }
+  },
+  "background": {
+    "from": "#E8EEF1",
+    "to": "#E8EEF1",
+    "panels": [
+      {
+        "region": [
+          0,
+          0,
+          1,
+          0.4
+        ],
+        "color": "#A7BAC4"
+      }
+    ]
+  },
+  "colors": {
+    "ink": "#2E322B",
+    "soft": "#82897A"
+  },
+  "zones": [
+    {
+      "region": [
+        0.12,
+        0.24,
+        0.88,
+        0.5
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "arabic_name",
+          "field": "name_arabic",
+          "type": "arabic",
+          "font": "arabic_name",
+          "height": 0.105,
+          "max_w": 0.62,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.2,
+        0.53,
+        0.8,
+        0.65
+      ],
+      "valign": "center",
+      "blocks": [
+        {
+          "id": "latin_name",
+          "field": "name_latin",
+          "type": "line",
+          "font": "latin_name",
+          "size": 0.028,
+          "tracking": 0.34,
+          "upper": true,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "region": [
+        0.18,
+        0.67,
+        0.82,
+        0.82
+      ],
+      "valign": "top",
+      "blocks": [
+        {
+          "id": "meaning",
+          "type": "paragraph",
+          "font": "body",
+          "size": 0.0148,
+          "leading": 1.7,
+          "max_w": 0.56,
+          "color": "soft"
+        }
+      ]
+    }
+  ],
+  "_dir": "horizon/dusty"
+}

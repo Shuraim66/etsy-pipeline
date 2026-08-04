@@ -1,0 +1,44 @@
+{
+  "name": "verse_aquarelle",
+  "_dir": "Watercolor verse: Ayat al-Kursi flowing calligraphy with soft watercolor blooms, sacred verse as the focal point.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": {
+    "from": "#FCFBF7",
+    "to": "#F7F3EA",
+    "washes": [
+      { "cx": 0.35, "cy": 0.25, "rx": 0.18, "ry": 0.15, "color": "#E8C4C9", "alpha": 0.35, "blur": 0.08 },
+      { "cx": 0.65, "cy": 0.30, "rx": 0.20, "ry": 0.17, "color": "#CBC5AF", "alpha": 0.30, "blur": 0.085 },
+      { "cx": 0.50, "cy": 0.40, "rx": 0.16, "ry": 0.12, "color": "#D4C8B5", "alpha": 0.25, "blur": 0.09 }
+    ]
+  },
+  "ornament": "none",
+  "border": { "style": "none" },
+  "corner": { "style": "none" },
+  "divider_style": "leaf",
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Regular.ttf" },
+    "latin_name": { "file": "Cinzel[wght].ttf", "weight": 500 },
+    "body": { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+  "colors": {
+    "accent": "#E9C46A",
+    "body": "#332E27",
+    "muted": "#9A958A"
+  },
+  "zones": [
+    { "region": [0.20, 0.15, 0.80, 0.30], "valign": "center", "blocks": [
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.022, "upper": true, "color": "#332E27", "gap": 0.010 }
+    ]},
+    { "region": [0.12, 0.30, 0.88, 0.58], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic_para", "font": "arabic_name", "size": 0.055, "max_w": 0.70, "color": "#332E27", "gap": 0.010 }
+    ]},
+    { "region": [0.25, 0.60, 0.75, 0.66], "valign": "center", "blocks": [
+      { "id": "meaning", "type": "line", "font": "latin_name", "size": 0.012, "color": "#332E27", "gap": 0.0 }
+    ]},
+    { "region": [0.12, 0.70, 0.88, 0.92], "valign": "top", "blocks": [
+      { "id": "divider_1", "type": "divider", "style": "leaf", "width": 0.20, "color": "#A65B62", "gap": 0.03 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0155, "leading": 1.55, "max_w": 0.58, "color": "#332E27", "gap": 0.02 }
+    ]}
+  ]
+}

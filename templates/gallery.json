@@ -1,0 +1,38 @@
+{
+  "name": "gallery",
+  "_dir": "Editorial gallery poster: a muted colour block on cream paper, a single-line flower, the big Arabic name overhanging the block edge, meaning below. Matches the best-selling Etsy 'name print' look.",
+  "canvas": { "w": 3508, "h": 4961 },
+  "background": { "from": "#F6F1E8", "to": "#F1E9DB", "panels": [
+    { "region": [0.235, 0.10, 0.765, 0.585], "color": "#CBA7A3" }
+  ] },
+  "colors": { "ink": "#33302A", "onblock": "#332B27", "soft": "#8C8476", "rose": "#A9736C" },
+
+  "ornament": "line_flower",
+  "crest": { "size": 0.072, "cy": 0.185, "color": "onblock" },
+  "border": { "style": "none" },
+  "corner": { "style": "none" },
+  "divider_style": "rule",
+
+  "fonts": {
+    "arabic_name": { "file": "Amiri-Bold.ttf" },
+    "arabic_dua":  { "file": "Amiri-Regular.ttf" },
+    "latin_name":  { "file": "Cinzel[wght].ttf", "weight": 600 },
+    "date":        { "file": "EBGaramond-Italic[wght].ttf", "weight": 500 },
+    "body":        { "file": "EBGaramond[wght].ttf", "weight": 450 },
+    "translation": { "file": "EBGaramond-Italic[wght].ttf", "weight": 450 }
+  },
+
+  "zones": [
+    { "region": [0.235, 0.25, 0.765, 0.585], "valign": "center", "blocks": [
+      { "id": "arabic_name", "field": "name_arabic", "type": "arabic", "font": "arabic_name", "height": 0.130, "max_w": 0.44, "color": "onblock", "gap": 0.000 },
+      { "id": "latin_name", "field": "name_latin", "type": "line", "font": "latin_name", "size": 0.030, "tracking": 0.36, "upper": true, "color": "onblock", "gap": 0.034 }
+    ]},
+    { "region": [0.14, 0.635, 0.86, 0.94], "valign": "top", "blocks": [
+      { "id": "date",        "type": "line",      "font": "date",        "size": 0.026, "color": "soft", "gap": 0.000 },
+      { "id": "divider_1",   "type": "divider",   "style": "rule", "width": 0.16, "color": "rose", "gap": 0.024 },
+      { "id": "meaning",     "type": "paragraph", "font": "body",        "size": 0.0162, "leading": 1.55, "max_w": 0.66, "color": "ink", "gap": 0.028 },
+      { "id": "dua_arabic",  "type": "arabic",    "font": "arabic_dua",  "height": 0.023, "max_w": 0.60, "color": "rose", "gap": 0.034 },
+      { "id": "translation", "field": "dua_translation", "type": "paragraph", "font": "translation", "size": 0.0166, "leading": 1.45, "max_w": 0.56, "color": "soft", "gap": 0.020 }
+    ]}
+  ]
+}

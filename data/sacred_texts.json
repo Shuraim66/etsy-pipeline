@@ -1,0 +1,70 @@
+{
+ "_comment": "Canonical Uthmani text fetched from quran.com API (verified:false until a human Arabic reader confirms). NEVER AI-typed.",
+ "_source": "api.quran.com v4 (text_uthmani; translation resource 20 = Saheeh International)",
+ "ayat_al_kursi": {
+  "verse_key": "2:255",
+  "label": "Ayat al-Kursi (The Throne Verse) · 2:255",
+  "kind": "verse",
+  "arabic_uthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+  "translation": "Allāh - there is no deity except Him, the Ever-Living, the Self-Sustaining. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursī extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
+  "verified": true
+ },
+ "bismillah": {
+  "verse_key": "1:1",
+  "label": "Bismillah · 1:1",
+  "kind": "phrase",
+  "arabic_uthmani": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "translation": "In the name of Allāh, the Entirely Merciful, the Especially Merciful.",
+  "verified": true
+ },
+ "ikhlas_1": {
+  "verse_key": "112:1",
+  "label": "Surah Al-Ikhlas · 112:1",
+  "kind": "phrase",
+  "arabic_uthmani": " قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+  "translation": "Say, \"He is Allāh, [who is] One,",
+  "verified": true
+ },
+ "sharh_5": {
+  "verse_key": "94:5",
+  "label": "Surah Ash-Sharh · 94:5",
+  "kind": "phrase",
+  "arabic_uthmani": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+  "translation": "For indeed, with hardship [will be] ease [i.e., relief].",
+  "verified": true
+ },
+ "sharh_6": {
+  "verse_key": "94:6",
+  "label": "Surah Ash-Sharh · 94:6",
+  "kind": "phrase",
+  "arabic_uthmani": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+  "translation": "Indeed, with hardship [will be] ease.",
+  "verified": true
+ },
+ "dhikr_subhanallah": {
+  "verse_key": "37:159",
+  "label": "SubhanAllah",
+  "kind": "dhikr",
+  "arabic_uthmani": "سُبْحَـٰنَ ٱللَّهِ",
+  "translation": "Glory be to Allah",
+  "note": "Extracted verbatim from Quran 37:159 (words 1-2), quran.com text_uthmani",
+  "verified": true
+ },
+ "dhikr_alhamdulillah": {
+  "verse_key": "1:2",
+  "label": "Alhamdulillah",
+  "kind": "dhikr",
+  "arabic_uthmani": "ٱلْحَمْدُ لِلَّهِ",
+  "translation": "All praise is due to Allah",
+  "note": "Extracted verbatim from Quran 1:2 (words 1-2), quran.com text_uthmani",
+  "verified": true
+ },
+ "dhikr_allahuakbar": {
+  "label": "Allahu Akbar",
+  "kind": "dhikr",
+  "arabic_uthmani": "اللَّهُ أَكْبَرُ",
+  "translation": "Allah is the Greatest",
+  "note": "Supplied verbatim by the operator (not Quranic; from adhan/takbir)",
+  "verified": true
+ }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "nv_nameonly_poster_charcoal",
+  "canvas": {
+    "w": 3508,
+    "h": 4961
+  },
+  "ornament": "none",
+  "border": {
+    "style": "none"
+  },
+  "corner": {
+    "style": "none"
+  },
+  "divider_style": "rule",
+  "fonts": {
+    "arabic_name": {
+      "file": "Amiri-Regular.ttf"
+    },
+    "latin_name": {
+      "file": "Cinzel[wght].ttf",
+      "weight": 500
+    },
+    "body": {
+      "file": "EBGaramond[wght].ttf",
+      "weight": 450
+    },
+    "translation": {
+      "file": "EBGaramond-Italic[wght].ttf",
+      "weight": 450
+    },
+    "arabic_dua": {
+      "file": "Amiri-Regular.ttf"
+    }
+  },
+  "background": {
+    "from": "#33302B",
+    "to": "#33302B"
+  },
+  "colors": {
+    "ink": "#ECE5D7",
+    "soft": "#8A7F68",
+    "accent": "#B08D4F"
+  },
+  "flow": {
+    "region": [
+      0.3,
+      0.66
+    ],
+    "blocks": [
+      {
+        "id": "latin_name",
+        "field": "name_latin",
+        "type": "line",
+        "font": "latin_name",
+        "size": 0.056,
+        "tracking": 0.1,
+        "upper": true,
+        "color": "ink"
+      },
+      {
+        "id": "d",
+        "type": "divider",
+        "style": "rule",
+        "width": 0.1,
+        "color": "accent",
+        "gap": 0.05
+      },
+      {
+        "id": "arabic_name",
+        "field": "name_arabic",
+        "type": "arabic",
+        "font": "arabic_name",
+        "height": 0.065,
+        "max_w": 0.5,
+        "color": "ink",
+        "gap": 0.05
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{ "name":"geo_zellige","_dir":"Full-bleed octagon + 8-star zellige grid, cream on terracotta, double cream frame.",
+  "canvas":{"w":3508,"h":4961},"background":{"from":"#B5654A","to":"#A4543C"},"colors":{"cream":"#F4ECE0"},
+  "ornament":"none","corner":{"style":"none"},
+  "pattern":{"kind":"eightfold_rosette_grid","color":"#F4ECE0","cells":5,"line":0.0055},
+  "border":{"style":"double","inset":0.050,"gap":0.014,"line":0.0013,"color":"#F4ECE0"},"fonts":{"arabic_name":{"file":"Amiri-Bold.ttf"},"arabic_dua":{"file":"Amiri-Regular.ttf"},"latin_name":{"file":"Cinzel[wght].ttf"},"date":{"file":"EBGaramond-Italic[wght].ttf"},"body":{"file":"EBGaramond[wght].ttf"},"translation":{"file":"EBGaramond-Italic[wght].ttf"}},"zones":[] }
