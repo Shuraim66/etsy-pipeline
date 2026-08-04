@@ -53,26 +53,61 @@ def angle_for(key):
     return ANGLES[_h(key) % len(ANGLES)]
 
 
+# Etsy SEO title formula: [core exact-match keyword first] + [2nd keyword phrase]
+# + [style] + [occasion] + "Digital Download", filled toward the 140-char budget.
 def title(L):
     style = STYLE_DESC.get(L["key"], "Minimalist")
-    t = (f"Personalised {TYPE_LINE[L['pers']]} | Islamic Name Print | "
-         f"{style} | {angle_for(L['key'])} | Digital Download")
+    occ = angle_for(L["key"])
+    t = {
+        "name":    f"Personalised Islamic Name Print, Custom Arabic Name Wall Art, {style}, {occ}, Digital Download",
+        "meaning": f"Personalised Islamic Name Print, Custom Arabic Name & Meaning Art, {style}, {occ}, Digital Download",
+        "dob":     f"Personalised Muslim Baby Name Print, Arabic Name Date & Meaning, Islamic Nursery Art, {occ}, Digital Download",
+        "verse":   f"Personalised Islamic Name & Dua Print, Custom Arabic Name Wall Art, Ayah Gift, {occ}, Digital Download",
+    }[L["pers"]]
     return t[:140]
 
 
+# per-style attribute tag (<=20 chars)
+STYLE_TAG = {
+    "Boho Botanical": "boho wall art", "Minimalist": "minimalist print",
+    "Minimalist Serif": "minimalist print", "Calligraphy": "arabic calligraphy",
+    "Colour Block": "colour block art", "Bold Colour": "bold arabic print",
+    "Colour Band": "colour block art", "Aura Gradient": "aura wall art",
+    "Elegant Label": "minimalist print", "Serif Poster": "minimalist print",
+    "Colour Field": "colour block art", "Monogram": "arabic calligraphy",
+    "Bauhaus Arc": "bold arabic print", "Celestial Moon": "celestial wall art",
+    "Modern Poster": "minimalist print", "Modern": "minimalist print",
+    "Name & Dua": "dua wall art", "2-Piece Set": "islamic art set",
+    "Bold Arabic": "bold arabic print",
+}
+TYPE_TAGS2 = {
+    "name": ["arabic calligraphy", "name sign", "islamic wall art"],
+    "meaning": ["name meaning print", "arabic name gift", "islamic wall art"],
+    "dob": ["muslim baby gift", "nursery wall art", "new baby gift"],
+    "verse": ["dua wall art", "ayah print", "islamic wall art"],
+}
+OCC_POOL = ["eid gift", "ramadan decor", "new home gift", "aqiqah gift",
+            "wedding gift", "islamic gift", "birthday gift"]
+FILLERS = ["boho wall art", "arabic print", "name print gift", "islamic decor",
+           "muslim art print", "arabic name gift"]
+
+
 def tags(L):
-    style = STYLE_DESC.get(L["key"], "minimalist").lower() + " print"
+    """13 unique tags, each <=20 chars: core exact-match + type + occasion +
+    style/attribute, topped up from fillers. Occasions rotate per listing."""
     rot = _h(L["key"])
-    core = CORE[:4]
-    aud = [AUDIENCE[(rot + i) % len(AUDIENCE)] for i in range(3)]
-    typ = TYPE_TAGS[L["pers"]]
-    extra = ["boho wall art", "muslim wall art", "arabic print", "personalized gift"]
-    ex = [extra[(rot + i) % len(extra)] for i in range(4 - len(typ))]
+    style_tag = STYLE_TAG.get(STYLE_DESC.get(L["key"]), "minimalist print")
+    core = ["islamic name print", "arabic name print", "custom name print",
+            "personalised print", "muslim gift"]
+    occ = [OCC_POOL[(rot + i) % len(OCC_POOL)] for i in range(2)]
+    attr = [style_tag, "muslim wall art", "arabic art print"]
     out, seen = [], set()
-    for t in core + [style] + typ + aud + ex:
-        t = t[:20]
-        if t not in seen:
+    for t in core + TYPE_TAGS2[L["pers"]] + occ + attr + FILLERS:
+        t = t[:20].strip()
+        if t and t not in seen:
             seen.add(t); out.append(t)
+        if len(out) == 13:
+            break
     return out[:13]
 
 
@@ -104,8 +139,9 @@ def description(L):
     set_note = ("This is a coordinated 2-piece set (name + dua) designed to hang together. "
                 if L["is_set"] else "")
     return (
-        f"Personalised Islamic name print — a {style.lower()} design in warm, framable colours.\n"
-        f"{set_note}Made to order with the name and spelling you provide.\n\n"
+        f"Personalised Islamic name print — custom Arabic name wall art in a {style.lower()} "
+        f"design, made to order in warm, framable colours. A thoughtful Muslim gift.\n"
+        f"{set_note}Made with the name and spelling you provide.\n\n"
         f"{personalization(L)}\n\n"
         f"{meaning_note}{dua_note}Arabic is placed exactly as you send it — please paste the "
         "spelling you want.\n\n"
